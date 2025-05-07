@@ -1,0 +1,7 @@
+<div id="myElement">
+  <p>Welcome to my website!</p>
+</div>
+<script>
+  // Access the <p> tag inside the div and update its content
+  document.getElementById("myElement").getElementsByTagName("p")[0].innerHTML = "Hello there!";
+</script>
