@@ -1,7 +1,16 @@
-<div id="myElement">
-  <p>Welcome to my website!</p>
-</div>
-<script>
-  // Access the <p> tag inside the div and update its content
-  document.getElementById("myElement").getElementsByTagName("p")[0].innerHTML = "Hello there!";
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1</title>
+</head>
+<body>
+    <div id="myElement">
+        <p>Welcome to my website!</p>
+    </div>
+
+    <script>
+        // Change the paragraph content
+        document.querySelector("#myElement p").innerHTML = "Hello there!";
+    </script>
+</body>
+</html>
